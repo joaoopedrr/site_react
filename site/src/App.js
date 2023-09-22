@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Page1 from './components/Page1';
 import Map from './components/Map';
+import PongGame from './components/Pong';
+import SimpleGame from './components/Pong';
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
       </header>
       <Page1></Page1>
       <Map></Map>
+      <SimpleGame></SimpleGame>
     </div>
   );
 }
